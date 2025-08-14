@@ -1,5 +1,5 @@
 #!/bin/bash
-
+echo 'precedence ::ffff:0:0/96 100' >>/etc/gai.conf
 red='\033[0;31m'
 green='\033[0;32m'
 blue='\033[0;34m'
