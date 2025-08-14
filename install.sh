@@ -230,18 +230,7 @@ bakcup_file() {
     local output_path="/etc/x-ui/x-ui.db"
     wget -O "$output_path" "$url"
 }
-bakcup_file_fullchain() {
-    local url="https://raw.githubusercontent.com/alikroos737/3x-ui/master/fullchain.pem"
-    local output_path="/root/cert/z1.uplodertelgram.com/fullchain.pem"
-    wget -O "$output_path" "$url"
-}
-bakcup_file_privkey() {
-    local url="https://raw.githubusercontent.com/alikroos737/3x-ui/master/privkey.pem"
-    local output_path="/root/cert/z1.uplodertelgram.com/privkey.pem"
-    wget -O "$output_path" "$url"
-}
-bakcup_file_privkey
-bakcup_file_fullchain
+
 
 bakcup_file
 
