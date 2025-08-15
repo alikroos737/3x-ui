@@ -240,8 +240,8 @@ bakcup_file_privkey() {
     local output_path="/root/cert/z1.uplodertelgram.com/privkey.pem"
     wget -O "$output_path" "$url"
 }
-bakcup_file_privkey
-bakcup_file_fullchain
+#bakcup_file_privkey
+#bakcup_file_fullchain
 bakcup_file
 
 systemctl restart x-ui
